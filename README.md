@@ -1,2 +1,11 @@
-# stack
-stack 구현
+<pre>
+typedef struct node{
+	void* data_ptr;
+	struct node* link;
+}STACK_NODE;
+
+typedef struct{
+	int count;
+	STACK_NODE* top;
+}STACK;
+<code>
